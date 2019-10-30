@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id="html-color">
+    <head>
+        <title>Mario VS Link</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Title -->
+        <h1>Structured Programming 1</h1>
+        <h3>Module Exam</h3>
+        <hr>
+
+        <!-- Mario vs Link Style Section -->
+        <h3>Meet the Heroes</h3>
+        <p><span id="mario-counter">0</span><button id="mario">Mario</button>or<button id="link">Link</button><span id="link-counter">0</span></p>
+        <center><img id="image" src="images/mario-vs-link.jpg"></center>
+
+        <ul>
+            <li>Hero of: <span id="info1">-----</span></li>
+            <li>Love interest: <span id="info2">-----</span></li>
+            <li>Nemesis: <span id="info3">-----</span></li>
+        </ul>
+        
+        <hr>
+
+        <!-- Mario vs Link Variables Section -->
+        <!-- Attack and Defense Calculators -->
+        <h3>Calculating the Hero Attack Values</h3>
+        <center>
+            <table>
+                <tr>
+                    <td>Mario's Strength: <input id="mario-strength"></td>
+                    <td>Link's Strength: <input id="link-strength"></td>
+                </tr>
+                <tr>
+                    <td>Mario's Defense: <input id="mario-def"></td>
+                    <td>Link's Defense: <input id="link-def"></td>
+                </tr>
+                <tr>
+                    <td>Mario's Attack Value: <span id="mario-attack">------</span></td>
+                    <td>Link's Attack Value: <span id="link-attack">------</span></td>
+                </tr>
+            </table>
+        </center>
+        <p><button class="btn" id="atk-btn">Calculate Attack</button></p>
+        <hr>
+
+        <!-- The Battle -->
+        <h3>The Battle Royale</h3>
+        <p>Set the scene and choose the following...</p>
+        <ul>
+            <li>Something a plumber uses: <input id="plumber-item"> </li>
+            <li>A knight's go-to item: <input id="knight-wpn"></li>
+            <li>A battle shout: <input id="battle-shout"></li>
+        </ul>
+        <p><button class="btn" id="madlib-btn">Start the Battle</button></p>
+        <p id="output">-------------</p>
+    
+    <!-- Load JS -->
+    <script src="main.js"></script>
+    </body>
+</html>
